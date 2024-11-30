@@ -1,0 +1,116 @@
+{
+    "test_groups": [
+        {
+            "name": "Полные графы",
+            "regen_factor": 1,
+            "type": "usual",
+            "parameters": [
+                {
+                    "vertex_count": 1,
+                    "edges_count": 0
+                },
+                {
+                    "vertex_count": 2,
+                    "edges_count": 1
+                },
+                {
+                    "vertex_count": 3,
+                    "edges_count": 3
+                },
+                {
+                    "vertex_count": 4,
+                    "edges_count": 6
+                },
+                {
+                    "vertex_count": 5,
+                    "edges_count": 10
+                }
+            ]
+        },
+        {
+            "name": "Разреженные графы",
+            "regen_factor": 5,
+            "type": "usual",
+            "parameters": [
+                {
+                    "vertex_count": 5,
+                    "edges_count": 5
+                },
+                {
+                    "vertex_count": 10,
+                    "edges_count": 15
+                },
+                {
+                    "vertex_count": 15,
+                    "edges_count": 20
+                },
+                {
+                    "vertex_count": 10,
+                    "edges_count": 13
+                },
+                {
+                    "vertex_count": 4,
+                    "edges_count": 5
+                }
+            ]
+        },
+        {
+            "name": "Несвязные графы",
+            "regen_factor": 3,
+            "type": "usual",
+            "parameters": [
+                {
+                    "vertex_count": 10,
+                    "edges_count": 5
+                },
+                {
+                    "vertex_count": 15,
+                    "edges_count": 10
+                },
+                {
+                    "vertex_count": 19,
+                    "edges_count": 17
+                }
+            ]
+        },
+        {
+            "name": "Произвольные графы",
+            "regen_factor": 10,
+            "type": "usual",
+            "parameters": [
+                {
+                    "vertex_count": 8,
+                    "edges_count": 18
+                },
+                {
+                    "vertex_count": 10,
+                    "edges_count": 20
+                },
+                {
+                    "vertex_count": 6,
+                    "edges_count": 10
+                }
+            ]
+        },
+        {
+            "name": "Компонентные графы",
+            "regen_factor": 10,
+            "type": "components",
+            "parameters": [
+                {
+                    "vertex_count": 6,
+                    "edges_count": 12
+                },
+                {
+                    "vertex_count": 4,
+                    "edges_count": 6
+                },
+                {
+                    "vertex_count": 5,
+                    "edges_count": 10
+                }
+            ]
+        }
+    ],
+    "seed": 42
+}
